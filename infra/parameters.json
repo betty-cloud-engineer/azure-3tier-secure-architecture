@@ -1,0 +1,54 @@
+﻿{
+    "$schema":  "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion":  "1.0.0.0",
+    "parameters":  {
+                       "vulnerabilityAssessments_Default_storageContainerPath":  {
+                                                                                     "value":  "https://<YOUR_STORAGE_ACCOUNT>.blob.core.windows.net/vulnerability-assessment"
+                                                                                 },
+                       "servers_sqlserver_3tier_prod_ban_name":  {
+                                                                     "value":  "sqlserver-3tier-prod-ban"
+                                                                 },
+                       "networkSecurityGroups_nsg_data_name":  {
+                                                                   "value":  "nsg-data"
+                                                               },
+                       "networkSecurityGroups_nsg_appgw_name":  {
+                                                                    "value":  "nsg-appgw"
+                                                                },
+                       "virtualNetworks_Vnet_3tier_prod_name":  {
+                                                                    "value":  "Vnet-3tier-prod"
+                                                                },
+                       "sites_rg_3tier_capstone_prod_ban123_name":  {
+                                                                        "value":  "rg-3tier-capstone-prod-ban123"
+                                                                    },
+                       "networkSecurityGroups_nsp_webapp_name":  {
+                                                                     "value":  "nsp-webapp"
+                                                                 },
+                       "metricAlerts_lert_agw_5xx_errors_name":  {
+                                                                     "value":  "lert-agw-5xx-errors"
+                                                                 },
+                       "applicationGateways_agw_3tier_prod_name":  {
+                                                                       "value":  "agw-3tier-prod"
+                                                                   },
+                       "privateEndpoints_pe_sqlserver_prod_name":  {
+                                                                       "value":  "pe-sqlserver-prod"
+                                                                   },
+                       "publicIPAddresses_pip_agw_3tier_prod_name":  {
+                                                                         "value":  "pip-agw-3tier-prod"
+                                                                     },
+                       "serverfarms_ASP_rg3tiercapstoneprod_b188_name":  {
+                                                                             "value":  "ASP-rg3tiercapstoneprod-b188"
+                                                                         },
+                       "workspaces_law_3tier_prod_name":  {
+                                                              "value":  "law-3tier-prod"
+                                                          },
+                       "virtualNetworks_vnet_webapp_centraleast_name":  {
+                                                                            "value":  "vnet-webapp-centraleast"
+                                                                        },
+                       "privateDnsZones_privatelink_database_windows_net_name":  {
+                                                                                     "value":  "privatelink.database.windows.net"
+                                                                                 },
+                       "ApplicationGatewayWebApplicationFirewallPolicies_waf_policy_3tier_prod_name":  {
+                                                                                                           "value":  "waf-policy-3tier-prod"
+                                                                                                       }
+                   }
+}
